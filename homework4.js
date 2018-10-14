@@ -121,6 +121,3 @@ function probel(p1){
    }
  }
  checkerboard(5);
-Chat Conversation End
-Type a message...
-
