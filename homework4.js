@@ -84,3 +84,43 @@ console.log (sum([1,2,3,4]))
     }
   };
   reverse([1,2,3,4,5]);
+
+ //ex7
+
+function aaastx(ast1){
+    let asttx = " ";
+    while(ast1 > 0){
+      asttx = asttx + "*";
+      ast1--;
+    }
+    return asttx;
+}
+
+function probel(p1){
+  let pr = "";
+  while(p1 > 0){
+    pr = pr + " ";
+    p1--;
+  }
+  return pr;
+}
+
+ function checkerboard(ch){
+  let t = 2;
+  let f = 0; 
+  while(f < ch){
+    if(t%2===0){
+      console.log(aaastx(ch));  
+    }
+    if(t%2===1){
+      
+    console.log(probel(1) + aaastx(ch));
+    }
+    t++;
+    f++;
+   }
+ }
+ checkerboard(5);
+Chat Conversation End
+Type a message...
+
